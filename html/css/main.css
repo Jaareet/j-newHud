@@ -1,0 +1,56 @@
+body {
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    bottom: .5vw;
+    left: 1.5vw;
+    display: flex;
+    transition: .5s;
+}
+
+.hud {
+    position: relative;
+    background-color: #111;
+    border-radius: 0.4vw;
+    box-shadow: 0 0 .4vw #000;
+    min-width: 1.4vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    padding: 0 .4vw;
+    transition: .5s;
+}
+
+.hud-item {
+    position: relative;
+    width: 1.5vw;
+    height: 1.35vw;
+    background-color: #151515;
+    box-shadow: 0 0 .4vw #000;
+    border-radius: 0.3vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hud-icon {
+    position: relative;
+    color: rgb(200,200,200);
+    text-shadow: 0 0 .4vw #000;
+    z-index: 1;
+    font-size: .7vw;
+}
+
+.hud-inside {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #222;
+    z-index: 0;
+    transition: .5s;
+}

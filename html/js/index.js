@@ -1,0 +1,1 @@
+setTimeout(() => $(() => startHudEvents()), 250)
